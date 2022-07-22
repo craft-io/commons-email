@@ -101,12 +101,6 @@ public class HtmlEmail extends MultiPartEmail
     /** Html part of the message. */
     protected String html;
 
-    /**
-     * @deprecated As of commons-email 1.1, no longer used. Inline embedded
-     * objects are now stored in {@link #inlineEmbeds}.
-     */
-    @Deprecated
-    protected List<InlineImage> inlineImages;
 
     /**
      * Embedded images Map&lt;String, InlineImage&gt; where the key is the
